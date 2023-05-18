@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EZ Build Group</title>
+  <link href="css.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+  <link rel="shortcut icon" href="img/logo.png" type="image/png">
+</head>
+
+<body>
+<header>
+  <div class="headr" id="header">
+    <ul class="menu">
+      <img src="img/logo.png" class="logo"><h2>EZ Build Group</h2>
+      <div class="hright">
+        <li><a href="#galery">Галерея</a></li>
+        <li><a href="#projects">Проекты</a></li>
+        <li><a href="comment.html">Отзывы</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="docs.html">Документы</a></li>
+      </div>
+    </ul>
+  </div>
+  <h1>Не кочегары мы, <br>не плотники...</h1>
+  <h2 class="info">
+    Но сожалений горьких нет,<br>
+    А мы монтажники-высотники,<br>
+    и с высоты вам шлём привет.
+  </h2>
+<a href="mailto:avisnev55@gmail.com">
+  <div class="mbtn"><h2>Написать</h2></div>
+</a>
+<div class="wgrad"></div>
+</header>
+<div class="maintext">
+  <h1>Наша фирма - ведущаяя<br>
+  на ярославском рынке</h1>
+  <h2>А эта страница<br> 
+  вам объяснит, <span>почему</span></h2>
+</div>
+<div class="Galery" id="galery">
+  <div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img/6.jpg" style="width:100%">
+    <div class="text">ЖК "Кузя Лакомкин"</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img/5.jpg" style="width:100%">
+    <div class="text">УралКукумберЗавод</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/4.jpg" style="width:100%">
+    <div class="text">Бизнес-Центр "Венсдей"</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+    <div class="gline"></div>
+    <div class="projects" id="projects">
+      <h1>
+        Наши крупнейшие проекты
+      </h1>
+      
+      <div class="tabs">
+        <div class="tabs__content">
+
+          <div class="tabs__pane tabs__pane_show">
+            <h2>
+              Дворец советов
+            </h2>
+            <span class="phar">
+              Высота: 415м<br>
+              Время стройки: 10 лет<br>
+              <a href="#win1" class="button button-green">Подробнее...</a><br>
+              <a href="#x" class="overlay" id="win1"></a>
+
+              <div class="popup">
+                <div class="objtxt">
+                  <h1>Дворец Советов</h1>
+                  <p> Высота Дворца вместе с венчающей его стометровой статуей Владимира Путина составила 415 м. Дворец стал центром новой Москвы и самым высоким зданием в мире, символизирующим победу путинизма. Проектирование и начало строительства дворца ознаменовало переход к уймановскому ампиру в российской архитектуре. </p>
+                  <p style="font-style: italic;">"Я думаю, что скоро потребуется для наших собраний, для наших исключительных парламентов более просторное, более широкое помещение. Я думаю, скоро мы почувствуем, что под этим куполом уже не умещаются звуки «Smoke(speed up)». Воздвигнем же на этом месте их новый дворец рабочих и трудящихся крестьян, соберём всё, чем богаты советские страны, вложим в этот памятник и покажем нашим друзьям и недругам, что мы, на которых до сих пор продолжают смотреть сверху вниз, способны украшать грешную землю такими памятниками, которые нашим врагам и не снились"</p>
+                </div>
+                <div class="objtxt">
+                  <img src="img/ds.jpg">
+                </div>
+               <a class="close"title="Закрыть" href="#close"></a>
+              </div>
+
+            </span>
+            <img src="img/1.jpg" class="prjimg">
+          </div>
+
+          <div class="tabs__pane">
+            <h2>
+              Администрация липовой горы
+            </h2>
+            <span class="phar">
+              Стоимость: в 2 раза дешевле конкурентов<br>
+              Вместимость лошадиного загона: 400шт<br>
+                 <a href="#win2" class="button button-green">Подробнее...</a><br>
+              <a href="#x" class="overlay" id="win2"></a>
+
+              <div class="popup">
+                <div class="objtxt">
+                  <h1>Липовый замок</h1>
+                  <p> Штирлиц сидел в кафе "Элефант" и помешивал кофе вилкой. Он знал, что невероятно рискует, но ему очень хотелось хоть пять минут ощутить себя на Родине. </p>
+                  <p>Штирлиц вёл двойную жизнь и очень надеялся, что хоть одна из них сложится удачно.</p>
+                  <p>Штирлиц безуспешно пытался установить личность. Личность всё время падала.</p>
+                </div>
+                <div class="objtxt">
+                  <img src="img/2.jpg">
+                </div>
+               <a class="close"title="Закрыть" href="#close"></a>
+              </div>
+
+            </span>
+            <img src="img/2.jpg" class="prjimg">
+          </div>
+
+          <div class="tabs__pane" id="content-3">
+            <h2>
+              Дворец Путина
+            </h2>
+            <span class="phar">
+              Вы и сами<br>
+              Всё знаете<br>
+                 <a href="#win3" class="button button-green">Подробнее...</a><br>
+              <a href="#x" class="overlay" id="win3"></a>
+
+              <div class="popup">
+                <div class="objtxt">
+                  <h1>Дворец Путина</h1>
+                  <p>     1. Чтобы приготовить картофельные драники по классическому рецепту, клубни очистите от кожуры и «глазок», после чего тщательно вымойте клубни под...</p>
+                  <p>2. После этого возьмите терку и натрите весь картофель на мелкой терке и переложите массу в сито с мелкой сеткой, чтобы с картофеля слить лишнюю...</p>
+                  <p>3. В миску с натертым картофелем разбейте куриные яйца, всыпьте соль и тщательно перемешайте ингредиенты.... </p>
+                </div>
+                <div class="objtxt">
+                  <img src="img/PD.jpg">
+                </div>
+               <a class="close"title="Закрыть" href="#close"></a>
+              </div>
+
+            </span>
+            <img src="img/3.jpg" class="prjimg">
+          </div>
+        </div>
+        <div class="tabs__nav">
+          <button class="tabs__btn tabs__btn_active">Советы</button>
+          <button class="tabs__btn">Липовая</button>
+          <button class="tabs__btn">Путин</button>
+        </div>
+      </div>
+    </div>
+    <div class="gline"></div>
+    <div class="stats">
+      <div class="stab">
+        <h1>33</h1><br><h2>года</h2><p>на рынке недвижимости</p>
+      </div>
+      <div class="stab">
+        <h1>86</h1><br><h2>проектов</h2><p>по всей Яр. области и РФ</p>
+      </div>
+      <div class="stab">
+        <h1>20</h1><br><h2>процентов</h2><p>выгода в сравнении с конкурентами</p>
+      </div>
+    </div>
+    <div class="gline"></div>
+    <div class="maintext">  
+      <h1>Понравилась наша работа?</h1><br><br>
+      <a href="comment.html" class="button button-green">Почитайте наши отзывы</a><br>
+    </div>
+  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aac5ccd1d1aeef1dd2544195fd837643a40a29b8696cb92d9b341f24db4102928&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+    <div class="gline"></div>
+    <footer>
+      <h2>EZ Build Group</h2>
+      <h1>Наш ковёр - цветочная поляна</h1>
+      <div class="wline"></div>
+      <ul>
+        <li><a href="#header">Начало</a></li>
+        <li><a href="#galery">Галерея</a></li>
+        <li><a href="#projects">Проекты</a></li>
+        <li><a href="comment.html">Отзывы</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="docs.html">Документы</a></li>
+        <li style="position: absolute; right: 0px;margin-right: 0px;"><a href="mailto:#">Написать</a></li>
+      </ul>
+    </footer>
+  <script src="js.js"></script>
+  <script src="jsphoto.js"></script>
+</body>
+</html>
