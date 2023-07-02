@@ -1,0 +1,12 @@
+{
+  "name": "EZBuildGroup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/XenoPOMP/EZBuildGroup.git",
+  "author": "XenoPOMP <101574433+XenoPOMP@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "prettier": "^2.8.8"
+  }
+}
